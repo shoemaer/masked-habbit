@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: maskedHabbit_production
   username: maskedHabbit
   password: <%= ENV['MASKEDHABBIT_DATABASE_PASSWORD'] %>
