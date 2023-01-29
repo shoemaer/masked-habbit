@@ -1,6 +1,6 @@
 databases:
   - name: masked-habbit
-    databaseName: maskedHabbit
+    databaseName: maskedHabbit_production
     user: maskedHabbit
 
 services:
