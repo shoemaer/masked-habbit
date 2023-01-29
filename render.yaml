@@ -1,6 +1,6 @@
 databases:
   - name: masked
-    plan: free
+    plan: free #
     databaseName: masked
     user: masked
 
