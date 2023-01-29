@@ -2,12 +2,12 @@ databases:
   - name: masked
     databaseName: masked
     user: masked
+    plan: free # optional (defaults to starter)
 
 services:
   - type: web
     name: masked
     env: ruby
-    plan: free # optional (defaults to starter)
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
