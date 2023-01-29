@@ -1,11 +1,11 @@
 databases:
-  - name: maskedHabbit
+  - name: masked-habbit
     databaseName: maskedHabbit
     user: maskedHabbit
 
 services:
   - type: web
-    name: maskedHabbit
+    name: masked-habbit
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
