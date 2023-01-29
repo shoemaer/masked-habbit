@@ -7,7 +7,7 @@ databases:
 services:
   - type: web
     name: masked
-    plan: free
+    plan: free #
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
