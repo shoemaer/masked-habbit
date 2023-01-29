@@ -1,8 +1,8 @@
 databases:
   - name: masked
+    plan: free # optional (defaults to starter)
     databaseName: masked
     user: masked
-    plan: free # optional (defaults to starter)
 
 services:
   - type: web
