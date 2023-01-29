@@ -1,7 +1,7 @@
 databases:
-  - name: masked-habbit
-    databaseName: maskedHabbit_production
-    user: maskedHabbit
+  - name: mysite
+    databaseName: mysite
+    user: mysite
 
 services:
   - type: web
