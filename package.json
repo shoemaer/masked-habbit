@@ -1,5 +1,5 @@
 {
-  "name": "maskedHabbit",
+  "name": "masked",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.17.5",
