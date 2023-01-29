@@ -1,6 +1,6 @@
 databases:
   - name: mysite
-    databaseName: mysite
+    databaseName: maskedHabbit
     user: mysite
 
 services:
